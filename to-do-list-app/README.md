@@ -1,36 +1,40 @@
-AI-Powered Color Palette Generator
+ToDoApp 📝
 
-A React-based color palette generator that provides random, aesthetically pleasing color schemes using the The Color API. With this tool, users can easily generate and copy color palettes for use in UI/UX design, web, and app development.
-Features
+A simple and user-friendly React To-Do List App that allows users to add, mark as complete, and delete tasks. Built with React Hooks for state management and styled components for a clean UI.
+🚀 Features
 
-    AI-generated color schemes: Uses random hex values to generate analogic color schemes.
-    Interactive UI: Displays color palettes that users can click to copy individual colors to the clipboard.
-    Responsive: Optimized for modern web browsers, with a mobile-friendly design.
-    Smooth animations: Hover and click animations powered by Framer Motion.
-    Clipboard functionality: Quickly copy colors to your clipboard with a click, and get feedback via toast notifications.
+    ✅ Add Tasks – Easily add new tasks to your list.
+    ✏️ Mark Tasks as Complete – Click on a task to toggle its completion status.
+    ❌ Delete Tasks – Remove completed or unwanted tasks.
+    🎨 Styled Components – Clean and modern UI.
 
-Installation
+🛠️ Technologies Used
 
-    Clone the repository:
+    ⚛️ React – JavaScript library for building UI components.
+    🎣 React Hooks (useState) – For managing component state.
+    💅 Styled Components – For styling the application.
 
-git clone https://github.com/Neginnn/ColorPaletteGenerator.git
+📦 Installation & Setup
 
-Install dependencies:
+Follow these steps to run the app locally:
+1️⃣ Clone the Repository
 
-yarn install
+git clone https://github.com/Neginnn/ToDoListApplication.git
+cd ToDoList
 
-Start the development server:
+2️⃣ Install Dependencies
 
-    yarn dev
+yarn install  # Or use npm install
 
-    Visit http://localhost:3070 in your browser to see the app in action.
+3️⃣ Start the Development Server
 
-Usage
+yarn dev  # Or use npm start
 
-    Click the Generate Palette button to create a new color palette.
-    Click on any color in the palette to copy it to your clipboard.
-    Colors are displayed in hex format.
+Now, open http://localhost:3070 in your browser to view the app.
+📸 Preview
 
-How It Works
+📝 Usage
 
-The ColorPaletteGenerator component fetches color schemes from the The Color API, generating an analogic color scheme based on a random hex color. The colors are displayed as clickable boxes, and when clicked, the color value is copied to the clipboard with a toast notification indicating success.
+    Enter a task in the input field and click "Add Task".
+    Click on a task to toggle its completion state.
+    Click the "Delete" button to remove a task.
